@@ -125,9 +125,9 @@ def download():
     return redirect(url_for('index'))
 
 def open_browser():
-      webbrowser.open_new('http://0.0.0.0:5001/')
+      webbrowser.open_new('http://127.0.0.1:5001/')
 
 if __name__ == '__main__':
     if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
         Timer(1, open_browser).start()  # 仅在重启后的进程中打开网页
-    app.run(debug=True, port=5001, host='0.0.0.0')
+    app.run(debug=True, port=5001)
