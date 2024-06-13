@@ -20,7 +20,7 @@
 
 1. **克隆仓库**：
    ```bash
-   git clone https://github.com/raphael/policy-text-insights
+   git clone https://github.com/raphaelxiao/policy-text-insights.git
    ```
 2. **安装依赖项**：
    ```bash
