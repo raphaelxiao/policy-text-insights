@@ -62,7 +62,7 @@ To get started with **Policy Text Insights**, follow these simple steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/raphael/policy-text-insights
+   git clone https://github.com/raphael/policy-text-insights.git
    ```
 2. **Install Dependencies**:
    ```bash
